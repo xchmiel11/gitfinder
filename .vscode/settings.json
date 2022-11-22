@@ -1,0 +1,47 @@
+{
+    // font
+        "editor.fontSize": 16,
+        "editor.fontWeight": "600",
+
+    // cursor
+        "editor.cursorBlinking": "expand",
+        "editor.cursorWidth": 3,
+        "workbench.colorCustomizations": {
+            "editorCursor.foreground": "#eeff00",
+            "terminalCursor.foreground": "#eeff00"
+        },
+
+    // scss
+        "liveSassCompile.settings.formats": [{
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "~/../css"
+        }],
+
+    // colorize
+        "colorize.languages": [
+            "javascript", "css", "scss"
+        ],
+
+    // view
+        "editor.minimap.enabled": false,
+        "window.zoomLevel": -1,
+
+    // ssh - work
+        "sshfs.configs": [
+            {
+                "name": "BluStreamTV",
+                "host": "46.238.215.19",
+                "root": "/home/admin/web",
+                "username": "root",
+                "password": "zLmExQTHwqdKdv5"
+            },
+            {
+                "name": "e-Pulpit24",
+                "host": "46.238.215.29",
+                "root": "/usr/share/nginx/html/epulpit",
+                "username": "root",
+                "password": "?+@ZS#8uA5?bQ?="
+            }
+        ],
+}
