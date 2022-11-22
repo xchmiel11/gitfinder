@@ -1,10 +1,5 @@
 import styled from "styled-components";
-import {
-  FaMapMarkerAlt as MapIcon,
-  FaLink as LinkIcon,
-  FaEnvelope as EmailIcon,
-  FaTwitter as TwitterIcon,
-} from "react-icons/fa";
+import { FaMapMarkerAlt as MapIcon, FaLink as LinkIcon } from "react-icons/fa";
 
 export default function Contact({ data }) {
   return (
