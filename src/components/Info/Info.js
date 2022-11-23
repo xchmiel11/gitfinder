@@ -10,7 +10,7 @@ export default function Info({ data }) {
       {data === null ? (
         <InfoText>No data</InfoText>
       ) : data !== null && Object.keys(data).length <= 1 ? (
-        <InfoText>No user found</InfoText>
+        <InfoText>User not found</InfoText>
       ) : (
         <>
           <Header data={data} />
