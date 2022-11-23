@@ -1,4 +1,4 @@
 ## GitFinder
 
-Simple react application to find GitHub users <br>
+React application to find GitHub users <br>
 https://xchmiel11.github.io/gitfinder/
