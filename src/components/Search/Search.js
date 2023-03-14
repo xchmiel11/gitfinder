@@ -55,6 +55,7 @@ const Input = styled.input`
   outline: none;
   font-size: 1rem;
   color: #fff;
+  font-family: "Poppins", sans-serif;
 
   &::placeholder {
     font-size: 0.9rem;
